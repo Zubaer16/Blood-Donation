@@ -1,0 +1,40 @@
+.img-container {
+  background-image: url('Images/Donation.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 1440px;
+}
+
+.three-column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20% 10px 0px 10px;
+}
+
+.column1,
+.column2,
+.column3 {
+  margin: 10px 0px;
+}
+
+@media (min-width: 565px) {
+  .three-column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .column1,
+  .column2,
+  .column3 {
+    margin: 0px 10px;
+  }
+}
